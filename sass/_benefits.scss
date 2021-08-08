@@ -1,0 +1,22 @@
+.benefits {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 8em 1em;
+
+    &-container {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+
+        h1 {
+            font-weight: 700;
+        }
+
+        &-item {
+            width: 25%;
+        }
+
+    }
+}
