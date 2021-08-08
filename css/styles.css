@@ -375,6 +375,33 @@ header.header .header-text .container-text-mob p {
   width: 25%;
 }
 
+.participar {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 8em 1em;
+}
+
+.participar-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.participar-container h1 {
+  font-weight: 700;
+}
+
+.participar-container p {
+  font-size: 0.875em;
+  padding: 0 1.5em;
+}
+
+.participar-container .desk-title {
+  display: none;
+}
+
 :root {
   --PrimaryYellow: #FDD200;
   --PrimaryBlack: #161616;

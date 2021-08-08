@@ -1,0 +1,26 @@
+.participar {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 8em 1em;
+
+    &-container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+
+         h1 {
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 0.875em;
+            padding: 0 1.5em;
+        }
+
+        .desk-title {
+            display: none;
+        }
+    }
+}
