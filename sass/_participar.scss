@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 8em 1em;
+    padding: 8em 0;
 
     &-container {
         width: 100%;
@@ -19,8 +19,26 @@
             padding: 0 1.5em;
         }
 
+        img {
+            margin-bottom: 2em;
+        }
+
         .desk-title {
             display: none;
+        }
+
+        .add-calendar {
+            background-color: #F2F2F2;
+            text-align: left;
+            padding: 4em 1.5em;
+
+            h1 {
+                font-size: 1.875em;
+            }
+
+            h2.add-subtitle {
+                font-weight: 400;
+            }
         }
     }
 }

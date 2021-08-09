@@ -379,7 +379,7 @@ header.header .header-text .container-text-mob p {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 8em 1em;
+  padding: 8em 0;
 }
 
 .participar-container {
@@ -398,8 +398,26 @@ header.header .header-text .container-text-mob p {
   padding: 0 1.5em;
 }
 
+.participar-container img {
+  margin-bottom: 2em;
+}
+
 .participar-container .desk-title {
   display: none;
+}
+
+.participar-container .add-calendar {
+  background-color: #F2F2F2;
+  text-align: left;
+  padding: 4em 1.5em;
+}
+
+.participar-container .add-calendar h1 {
+  font-size: 1.875em;
+}
+
+.participar-container .add-calendar h2.add-subtitle {
+  font-weight: 400;
 }
 
 :root {
